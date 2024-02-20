@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: indigo
+     background-image: url(rsz_3510412.jpg); 
 }
 
 h1{
@@ -22,12 +22,14 @@ h1{
     height: 70px;
     max-width: 780px;
     width: 60%;
-    background-color: indianred;
+    
     border-radius: 10px;
+    box-shadow: 1px 1px 1px 4px;
     display: flex;
     align-items: center;
     margin: auto;
     margin-bottom: 80px;
+    backdrop-filter: blur(15px);
 }
 
 .search input{
@@ -35,7 +37,7 @@ h1{
     background: transparent;
     outline: none;
     border: none;
-    color: azure;
+    color: white;
     font-size: 20px;
     padding: 0 20px;
     flex: 2;
