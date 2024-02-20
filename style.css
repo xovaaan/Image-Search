@@ -7,6 +7,7 @@
 
 body{
      background-image: url(rsz_3510412.jpg); 
+     
 }
 
 h1{
@@ -137,7 +138,7 @@ h1{
         height: 70px;
         max-width: 500px;
         width: 60%;
-        background-color: indianred;
+        backdrop-filter: blur(15px);
         border-radius: 10px;
         display: flex;
         align-items: center;
